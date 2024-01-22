@@ -686,15 +686,44 @@ section img:hover{
     }
 
     .navbar{
-      width: 100vw;
-    }
-
-    .navbar-left{
       display: none;
     }
 
-    .navbar-right ul li{
-      font-size: 24px;
+    .nav-mobile{
+      position: fixed;
+      top:0;
+      left: 0;
+      width: 100vw;
+      height: 2rem;
+      background-color: #8900fa;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-family: 'Play', sans-serif;
+    }
+
+    .nav-mobile:hover{
+      color: aliceblue;
+    }
+
+    .navbar-right-mobile{
+      width: fit-content;
+    }
+
+    .right-list-mobile{
+      width: auto;
+    }
+
+    .list-name-mobile{
+      list-style: none;
+    }
+
+
+
+    .nav-mobile-left{
+      height: 2rem;
+      width: 2rem;
+      margin-right: 1rem;
     }
 
 
@@ -712,6 +741,7 @@ section img:hover{
       justify-content: center;
       align-items: center;
       margin: 0;
+      width: 100vw;
     }
     
     .name{

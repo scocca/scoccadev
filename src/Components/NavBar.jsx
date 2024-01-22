@@ -18,6 +18,7 @@ function NavBar(){
               <li className='getInTouch'><a href="/getintouch">Get in Touch</a></li>
             </ul>
           </div>
+          
         </div>
       </navbar>
     )
